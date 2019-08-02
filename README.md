@@ -1,0 +1,7 @@
+SZZSDailyImage
+
+上证指数每日截图服务，用于保持该账号活跃得像个假号
+该程序不上传，实现思路是：
+A、一个Winform程序利用Webbrowser实现百度搜索出结果，然后截图并保存
+B、一个bat文件实现文件夹的Pull和Push等功能
+一个Windows Service调用A程序，判断截图是否生成成功，然后再调用B程序实现图片上传（每日下午四点后执行）
